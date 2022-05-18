@@ -2,12 +2,12 @@
   {
     "name": "01_step_01",
     "index": 0,
-    "image": "/image/01.png",
+    "image": "./image/01.png",
     "display": true,
     "step": 1,
     "parts": [
       {
-        "image": "/image/parts/121194.png",
+        "image": "./image/parts/121194.png",
         "code": "121194",
         "count": 4
       }
@@ -59,7 +59,7 @@
         "type": "focus",
         "display": true,
         "fromFrame": 300,
-        "image": "/image/09.png",
+        "image": "./image/09.png",
         "camera": "step_01_focus_cam",
         "target": "step_01_focus_target"
       },
@@ -73,7 +73,7 @@
   {
     "name": "03_step_02",
     "index": 1,
-    "image": "/image/02.png",
+    "image": "./image/02.png",
     "display": true,
     "step": 2,
     "parts": [],
@@ -105,7 +105,7 @@
       {
         "type": "focus",
         "display": true,
-        "image": "/image/02.png",
+        "image": "./image/02.png",
         "fromFrame": 180,
         "camera": "step_02_focus_cam",
         "target": "step_02_focus_target"
@@ -120,12 +120,12 @@
   {
     "name": "05_step_03",
     "index": 2,
-    "image": "/image/03.png",
+    "image": "./image/03.png",
     "display": true,
     "step": 3,
     "parts": [
       {
-        "image": "/image/parts/121194.png",
+        "image": "./image/parts/121194.png",
         "code": "121194",
         "count": 4
       }
@@ -173,7 +173,7 @@
         "type": "focus",
         "display": true,
         "fromFrame": 280,
-        "image": "/image/03.png",
+        "image": "./image/03.png",
         "camera": "step_03_focus_cam",
         "target": "step_03_focus_target"
       },
@@ -187,23 +187,23 @@
   {
     "name": "07_step_04",
     "index": 3,
-    "image": "/image/04.png",
+    "image": "./image/04.png",
     "display": true,
     "startFrame": 2,
     "step": 4,
     "parts": [
       {
-        "image": "/image/parts/124154.png",
+        "image": "./image/parts/124154.png",
         "code": "124154",
         "count": 2
       },
       {
-        "image": "/image/parts/104844.png",
+        "image": "./image/parts/104844.png",
         "code": "104844",
         "count": 2
       },
       {
-        "image": "/image/parts/130772.png",
+        "image": "./image/parts/130772.png",
         "code": "130772",
         "count": 2
       }
@@ -251,7 +251,7 @@
         "type": "focus",
         "display": true,
         "fromFrame": 282.1,
-        "image": "/image/04.png",
+        "image": "./image/04.png",
         "camera": "step_04_focus_cam",
         "target": "step_04_focus_target"
       },
@@ -265,17 +265,17 @@
   {
     "name": "09_step_05",
     "index": 4,
-    "image": "/image/05.png",
+    "image": "./image/05.png",
     "display": true,
     "step": 5,
     "parts": [
       {
-        "image": "/image/parts/124154.png",
+        "image": "./image/parts/124154.png",
         "code": "124154",
         "count": 2
       },
       {
-        "image": "/image/parts/104844.png",
+        "image": "./image/parts/104844.png",
         "code": "104844",
         "count": 2
       }
@@ -330,7 +330,7 @@
         "type": "focus",
         "display": true,
         "fromFrame": 500,
-        "image": "/image/05.png",
+        "image": "./image/05.png",
         "camera": "step_05_focus_cam",
         "target": "step_05_focus_target"
       },
@@ -344,17 +344,17 @@
   {
     "name": "11_step_06",
     "index": 5,
-    "image": "/image/06.png",
+    "image": "./image/06.png",
     "display": true,
     "step": 6,
     "parts": [
       {
-        "image": "/image/parts/124154.png",
+        "image": "./image/parts/124154.png",
         "code": "124154",
         "count": 2
       },
       {
-        "image": "/image/parts/104844.png",
+        "image": "./image/parts/104844.png",
         "code": "104844",
         "count": 2
       }
@@ -422,7 +422,7 @@
         "type": "focus",
         "display": true,
         "fromFrame": 230,
-        "image": "/image/06.png",
+        "image": "./image/06.png",
         "camera": "step_06_focus_cam",
         "target": "step_06_focus_target"
       },
@@ -436,12 +436,12 @@
   {
     "name": "13_step_07",
     "index": 6,
-    "image": "/image/07.png",
+    "image": "./image/07.png",
     "display": true,
     "step": 7,
     "parts": [
       {
-        "image": "/image/parts/152099_156896.png",
+        "image": "./image/parts/152099_156896.png",
         "code": "152099",
         "count": 4
       }
@@ -512,7 +512,7 @@
         "type": "focus",
         "display": true,
         "fromFrame": 100,
-        "image": "/image/07.png",
+        "image": "./image/07.png",
         "camera": "step_07_focus_cam",
         "target": "step_07_focus_target"
       },
@@ -526,7 +526,7 @@
   {
     "name": "15_step_08",
     "index": 7,
-    "image": "/image/08.png",
+    "image": "./image/08.png",
     "display": true,
     "step": 8,
     "parts": [],
@@ -615,7 +615,7 @@
         "type": "focus",
         "display": true,
         "fromFrame": 0.8,
-        "image": "/image/08.png",
+        "image": "./image/08.png",
         "camera": "step_08_focus_cam",
         "target": "step_08_focus_target"
       },
@@ -629,7 +629,7 @@
   {
     "name": "17_step_09",
     "index": 8,
-    "image": "/image/09.png",
+    "image": "./image/09.png",
     "display": true,
     "step": 9,
     "parts": [],
@@ -690,7 +690,7 @@
         "type": "focus",
         "display": true,
         "fromFrame": 0.6,
-        "image": "/image/09.png",
+        "image": "./image/09.png",
         "camera": "step_09_focus_cam",
         "target": "step_09_focus_target"
       },

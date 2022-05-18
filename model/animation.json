@@ -1,0 +1,704 @@
+[
+  {
+    "name": "01_step_01",
+    "index": 0,
+    "image": "/image/01.png",
+    "display": true,
+    "step": 1,
+    "parts": [
+      {
+        "image": "/image/parts/121194.png",
+        "code": "121194",
+        "count": 4
+      }
+    ],
+    "event": [
+      {
+        "type": "alpha",
+        "meshName": "driver",
+        "fromFrame": 420,
+        "toFrame": 430,
+        "alpha": 1
+      },
+      {
+        "type": "alpha",
+        "meshName": "driver",
+        "fromFrame": 520,
+        "toFrame": 550,
+        "alpha": 0
+      },
+      {
+        "type": "alpha",
+        "meshName": "screws_121194_obj_l_01",
+        "fromFrame": 300.1,
+        "toFrame": 330.1,
+        "alpha": 1
+      },
+      {
+        "type": "alpha",
+        "meshName": "screws_121194_obj_l_02",
+        "fromFrame": 301,
+        "toFrame": 331,
+        "alpha": 1
+      },
+      {
+        "type": "alpha",
+        "meshName": "screws_121194_obj_r_01",
+        "fromFrame": 300.2,
+        "toFrame": 330.2,
+        "alpha": 1
+      },
+      {
+        "type": "alpha",
+        "meshName": "screws_121194_obj_r_02",
+        "fromFrame": 301.1,
+        "toFrame": 331.1,
+        "alpha": 1
+      },
+      {
+        "type": "focus",
+        "display": true,
+        "fromFrame": 300,
+        "image": "/image/09.png",
+        "camera": "step_01_focus_cam",
+        "target": "step_01_focus_target"
+      },
+      {
+        "type": "focus",
+        "display": false,
+        "fromFrame": 584
+      }
+    ]
+  },
+  {
+    "name": "03_step_02",
+    "index": 1,
+    "image": "/image/02.png",
+    "display": true,
+    "step": 2,
+    "parts": [],
+    "event": [
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_l_01",
+        "fromFrame": 0,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_l_02",
+        "fromFrame": 0.1,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_r_01",
+        "fromFrame": 0.2,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_r_02",
+        "fromFrame": 0.3,
+        "display": true
+      },
+      {
+        "type": "focus",
+        "display": true,
+        "image": "/image/02.png",
+        "fromFrame": 180,
+        "camera": "step_02_focus_cam",
+        "target": "step_02_focus_target"
+      },
+      {
+        "type": "focus",
+        "display": false,
+        "fromFrame": 380
+      }
+    ]
+  },
+  {
+    "name": "05_step_03",
+    "index": 2,
+    "image": "/image/03.png",
+    "display": true,
+    "step": 3,
+    "parts": [
+      {
+        "image": "/image/parts/121194.png",
+        "code": "121194",
+        "count": 4
+      }
+    ],
+    "event": [
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_l_01",
+        "fromFrame": 0,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_l_02",
+        "fromFrame": 0.1,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_r_01",
+        "fromFrame": 0.2,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_r_02",
+        "fromFrame": 0.3,
+        "display": true
+      },
+      {
+        "type": "alpha",
+        "meshName": "driver",
+        "fromFrame": 294,
+        "toFrame": 318,
+        "alpha": 1
+      },
+      {
+        "type": "alpha",
+        "meshName": "driver",
+        "fromFrame": 380,
+        "toFrame": 410,
+        "alpha": 0
+      },
+      {
+        "type": "focus",
+        "display": true,
+        "fromFrame": 280,
+        "image": "/image/03.png",
+        "camera": "step_03_focus_cam",
+        "target": "step_03_focus_target"
+      },
+      {
+        "type": "focus",
+        "display": false,
+        "fromFrame": 420
+      }
+    ]
+  },
+  {
+    "name": "07_step_04",
+    "index": 3,
+    "image": "/image/04.png",
+    "display": true,
+    "startFrame": 2,
+    "step": 4,
+    "parts": [
+      {
+        "image": "/image/parts/124154.png",
+        "code": "124154",
+        "count": 2
+      },
+      {
+        "image": "/image/parts/104844.png",
+        "code": "104844",
+        "count": 2
+      },
+      {
+        "image": "/image/parts/130772.png",
+        "code": "130772",
+        "count": 2
+      }
+    ],
+    "event": [
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_l_01",
+        "fromFrame": 0,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_l_02",
+        "fromFrame": 0.1,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_r_01",
+        "fromFrame": 0.2,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_r_02",
+        "fromFrame": 0.3,
+        "display": true
+      },
+      {
+        "type": "alpha",
+        "meshName": "wrench",
+        "fromFrame": 282,
+        "toFrame": 302,
+        "alpha": 1
+      },
+      {
+        "type": "alpha",
+        "meshName": "wrench",
+        "fromFrame": 660,
+        "toFrame": 680,
+        "alpha": 0
+      },
+      {
+        "type": "focus",
+        "display": true,
+        "fromFrame": 282.1,
+        "image": "/image/04.png",
+        "camera": "step_04_focus_cam",
+        "target": "step_04_focus_target"
+      },
+      {
+        "type": "focus",
+        "display": false,
+        "fromFrame": 713
+      }
+    ]
+  },
+  {
+    "name": "09_step_05",
+    "index": 4,
+    "image": "/image/05.png",
+    "display": true,
+    "step": 5,
+    "parts": [
+      {
+        "image": "/image/parts/124154.png",
+        "code": "124154",
+        "count": 2
+      },
+      {
+        "image": "/image/parts/104844.png",
+        "code": "104844",
+        "count": 2
+      }
+    ],
+    "event": [
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_l_01",
+        "fromFrame": 0,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_l_02",
+        "fromFrame": 0.1,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_r_01",
+        "fromFrame": 0.2,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_r_02",
+        "fromFrame": 0.3,
+        "display": true
+      },
+      {
+        "type": "alpha",
+        "meshName": "round_board",
+        "fromFrame": 150,
+        "toFrame": 180,
+        "alpha": 1
+      },
+      {
+        "type": "alpha",
+        "meshName": "wrench",
+        "fromFrame": 513,
+        "toFrame": 527,
+        "alpha": 1
+      },
+      {
+        "type": "alpha",
+        "meshName": "wrench",
+        "fromFrame": 711,
+        "toFrame": 778,
+        "alpha": 0
+      },
+      {
+        "type": "focus",
+        "display": true,
+        "fromFrame": 500,
+        "image": "/image/05.png",
+        "camera": "step_05_focus_cam",
+        "target": "step_05_focus_target"
+      },
+      {
+        "type": "focus",
+        "display": false,
+        "fromFrame": 777
+      }
+    ]
+  },
+  {
+    "name": "11_step_06",
+    "index": 5,
+    "image": "/image/06.png",
+    "display": true,
+    "step": 6,
+    "parts": [
+      {
+        "image": "/image/parts/124154.png",
+        "code": "124154",
+        "count": 2
+      },
+      {
+        "image": "/image/parts/104844.png",
+        "code": "104844",
+        "count": 2
+      }
+    ],
+    "event": [
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_l_01",
+        "fromFrame": 0,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_l_02",
+        "fromFrame": 0.1,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_r_01",
+        "fromFrame": 0.2,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_r_02",
+        "fromFrame": 0.3,
+        "display": true
+      },
+      {
+        "type": "alpha",
+        "meshName": "bolt_124154_obj_l_02",
+        "fromFrame": 120,
+        "toFrame": 140,
+        "alpha": 1
+      },
+      {
+        "type": "alpha",
+        "meshName": "frame_joint_b_l",
+        "fromFrame": 110,
+        "toFrame": 130,
+        "alpha": 1
+      },
+      {
+        "type": "alpha",
+        "meshName": "bolt_124154_obj_r_02",
+        "fromFrame": 121,
+        "toFrame": 140,
+        "alpha": 1
+      },
+      {
+        "type": "alpha",
+        "meshName": "frame_joint_b_r",
+        "fromFrame": 111,
+        "toFrame": 130,
+        "alpha": 1
+      },
+      {
+        "type": "enabled",
+        "meshName": "round_board",
+        "fromFrame": 0.4,
+        "display": true
+      },
+      {
+        "type": "focus",
+        "display": true,
+        "fromFrame": 230,
+        "image": "/image/06.png",
+        "camera": "step_06_focus_cam",
+        "target": "step_06_focus_target"
+      },
+      {
+        "type": "focus",
+        "display": false,
+        "fromFrame": 470
+      }
+    ]
+  },
+  {
+    "name": "13_step_07",
+    "index": 6,
+    "image": "/image/07.png",
+    "display": true,
+    "step": 7,
+    "parts": [
+      {
+        "image": "/image/parts/152099_156896.png",
+        "code": "152099",
+        "count": 4
+      }
+    ],
+    "event": [
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_l_01",
+        "fromFrame": 0,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_l_02",
+        "fromFrame": 0.1,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_r_01",
+        "fromFrame": 0.2,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_r_02",
+        "fromFrame": 0.3,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "bolt_124154_obj_l_02",
+        "fromFrame": 0.4,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "frame_joint_b_l",
+        "fromFrame": 0.5,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "bolt_124154_obj_r_02",
+        "fromFrame": 0.6,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "frame_joint_b_r",
+        "fromFrame": 0.7,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "round_board",
+        "fromFrame": 0.8,
+        "display": true
+      },
+      {
+        "type": "alpha",
+        "meshName": "round_board",
+        "fromFrame": 230,
+        "toFrame": 250,
+        "alpha": 0
+      },
+      {
+        "type": "focus",
+        "display": true,
+        "fromFrame": 100,
+        "image": "/image/07.png",
+        "camera": "step_07_focus_cam",
+        "target": "step_07_focus_target"
+      },
+      {
+        "type": "focus",
+        "display": false,
+        "fromFrame": 200
+      }
+    ]
+  },
+  {
+    "name": "15_step_08",
+    "index": 7,
+    "image": "/image/08.png",
+    "display": true,
+    "step": 8,
+    "parts": [],
+    "event": [
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_l_01",
+        "fromFrame": 0,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_l_02",
+        "fromFrame": 0.1,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_r_01",
+        "fromFrame": 0.2,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_r_02",
+        "fromFrame": 0.3,
+        "display": true
+      },
+      {
+        "type": "alpha",
+        "meshName": "wrench",
+        "fromFrame": 0.4,
+        "toFrame": 1,
+        "alpha": 1
+      },
+      {
+        "type": "alpha",
+        "meshName": "wrench_02",
+        "fromFrame": 0.5,
+        "toFrame": 1.1,
+        "alpha": 1
+      },
+      {
+        "type": "alpha",
+        "meshName": "wrench_03",
+        "fromFrame": 0.6,
+        "toFrame": 1.2,
+        "alpha": 1
+      },
+      {
+        "type": "alpha",
+        "meshName": "wrench_04",
+        "fromFrame": 0.7,
+        "toFrame": 1.3,
+        "alpha": 1
+      },
+      {
+        "type": "alpha",
+        "meshName": "wrench",
+        "fromFrame": 270,
+        "toFrame": 290,
+        "alpha": 0
+      },
+      {
+        "type": "alpha",
+        "meshName": "wrench_02",
+        "fromFrame": 270.1,
+        "toFrame": 290.1,
+        "alpha": 0
+      },
+      {
+        "type": "alpha",
+        "meshName": "wrench_03",
+        "fromFrame": 270.2,
+        "toFrame": 290.2,
+        "alpha": 0
+      },
+      {
+        "type": "alpha",
+        "meshName": "wrench_04",
+        "fromFrame": 270.3,
+        "toFrame": 290.3,
+        "alpha": 0
+      },
+      {
+        "type": "focus",
+        "display": true,
+        "fromFrame": 0.8,
+        "image": "/image/08.png",
+        "camera": "step_08_focus_cam",
+        "target": "step_08_focus_target"
+      },
+      {
+        "type": "focus",
+        "display": false,
+        "fromFrame": 322
+      }
+    ]
+  },
+  {
+    "name": "17_step_09",
+    "index": 8,
+    "image": "/image/09.png",
+    "display": true,
+    "step": 9,
+    "parts": [],
+    "event": [
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_l_01",
+        "fromFrame": 0,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_l_02",
+        "fromFrame": 0.1,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_r_01",
+        "fromFrame": 0.2,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_r_02",
+        "fromFrame": 0.3,
+        "display": true
+      },
+      {
+        "type": "alpha",
+        "meshName": "wrench",
+        "fromFrame": 0.4,
+        "toFrame": 1.1,
+        "alpha": 1
+      },
+      {
+        "type": "alpha",
+        "meshName": "wrench_02",
+        "fromFrame": 0.5,
+        "toFrame": 1,
+        "alpha": 1
+      },
+      {
+        "type": "alpha",
+        "meshName": "wrench",
+        "fromFrame": 300,
+        "toFrame": 330,
+        "alpha": 0
+      },
+      {
+        "type": "alpha",
+        "meshName": "wrench_02",
+        "fromFrame": 300.1,
+        "toFrame": 330.1,
+        "alpha": 0
+      },
+      {
+        "type": "focus",
+        "display": true,
+        "fromFrame": 0.6,
+        "image": "/image/09.png",
+        "camera": "step_09_focus_cam",
+        "target": "step_09_focus_target"
+      },
+      {
+        "type": "focus",
+        "display": false,
+        "fromFrame": 399
+      }
+    ]
+  }
+]

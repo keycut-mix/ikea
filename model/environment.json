@@ -1,0 +1,54 @@
+{
+  "lights": [
+    {
+      "type": "spot",
+      "name": "Spot",
+      "intensity": 70,
+      "diffuse": "#CCEDFF",
+      "specular": "#FFFFFF",
+      "angle": 80,
+      "innerAngle": 6.8010,
+      "shadowGenerator": {
+        "bias": 0.000001,
+        "darkness": 0,
+        "filter": "PCF",
+        "filteringQuality": "HIGH"
+      }
+    },
+    {
+      "type": "spot",
+      "name": "Spot.001",
+      "intensity": 250,
+      "diffuse": "#CCEDFF",
+      "specular": "#FFFFFF",
+      "angle": 360,
+      "innerAngle": 94,
+      "shadowGenerator": {
+        "bias": 0.000001,
+        "darkness": 0,
+        "filter": "PCF",
+        "filteringQuality": "HIGH"
+      }
+    }
+  ],
+  "tools": [
+    "driver",
+    "wrench",
+    "round_board",
+    "frame_joint_b_l",
+    "bolt_124154_obj_l_02",
+    "frame_joint_b_r",
+    "bolt_124154_obj_r_02",
+    "wrench_02",
+    "wrench_03",
+    "wrench_04",
+    "screws_121194_obj_l_01",
+    "screws_121194_obj_l_02",
+    "screws_121194_obj_r_01",
+    "screws_121194_obj_r_02"
+  ],
+  "environment": {
+    "intensity": 1.2,
+    "ambientColor": "#000000"
+  }
+}

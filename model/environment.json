@@ -1,4 +1,7 @@
 {
+  "offModels": [
+    "basket_h_01"
+  ],
   "lights": [
     {
       "type": "spot",
@@ -13,7 +16,8 @@
         "darkness": 0,
         "filter": "PCF",
         "filteringQuality": "HIGH"
-      }
+      },
+      "shadow": true
     },
     {
       "type": "spot",
@@ -28,7 +32,8 @@
         "darkness": 0,
         "filter": "PCF",
         "filteringQuality": "HIGH"
-      }
+      },
+      "shadow": false
     }
   ],
   "tools": [

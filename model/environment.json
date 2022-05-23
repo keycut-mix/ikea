@@ -1,7 +1,4 @@
 {
-  "offModels": [
-    "basket_h_01"
-  ],
   "lights": [
     {
       "type": "spot",
@@ -16,41 +13,52 @@
         "darkness": 0,
         "filter": "PCF",
         "filteringQuality": "HIGH"
-      },
-      "shadow": true
-    },
-    {
+      }
+	},
+	  {
       "type": "spot",
       "name": "Spot.001",
       "intensity": 250,
       "diffuse": "#CCEDFF",
       "specular": "#FFFFFF",
       "angle": 360,
-      "innerAngle": 94,
+      "innerAngle":94,
       "shadowGenerator": {
         "bias": 0.000001,
         "darkness": 0,
         "filter": "PCF",
         "filteringQuality": "HIGH"
-      },
-      "shadow": false
+      }
     }
   ],
   "tools": [
     "driver",
     "wrench",
-    "round_board",
-    "frame_joint_b_l",
-    "bolt_124154_obj_l_02",
-    "frame_joint_b_r",
-    "bolt_124154_obj_r_02",
-    "wrench_02",
-    "wrench_03",
-    "wrench_04",
-    "screws_121194_obj_l_01",
-    "screws_121194_obj_l_02",
-    "screws_121194_obj_r_01",
-    "screws_121194_obj_r_02"
+	"round_board",
+	"frame_joint_b_l",
+	"bolt_124154_obj_l_02",
+	"frame_joint_b_r",
+	"bolt_124154_obj_r_02",
+	"wrench_02",
+	"wrench_03",
+	"wrench_04",
+	"screws_121194_obj_l_01",
+	"screws_121194_obj_l_02",
+	"screws_121194_obj_r_01",
+	"screws_121194_obj_r_02",
+	"shadow_01",
+	"shadow_02",
+	"shadow_03",
+	"shadow_04",
+	"shadow_02_01_a",
+	"shadow_02_01_b",
+	"shadow_02_01_c",
+	"shadow_02_01_d",
+	"shadow_02_a",
+	"shadow_02_b"
+	
+	
+	
   ],
   "environment": {
     "intensity": 1.2,

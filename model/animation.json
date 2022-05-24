@@ -2,7 +2,7 @@
   {
     "name": "01_step_01",
     "index": 0,
-    "image": "/image/01.png",
+    "image": "./image/01.png",
     "display": true,
     "step": 1,
     "event": [
@@ -20,8 +20,7 @@
         "toFrame": 550,
         "alpha": 0
       },
-	  
-	  {
+      {
         "type": "alpha",
         "meshName": "screws_121194_obj_l_01",
         "fromFrame": 300.1,
@@ -35,8 +34,7 @@
         "toFrame": 331,
         "alpha": 1
       },
-	  
-	  {
+      {
         "type": "alpha",
         "meshName": "screws_121194_obj_r_01",
         "fromFrame": 300.2,
@@ -50,18 +48,13 @@
         "toFrame": 331.1,
         "alpha": 1
       },
-	  
-	   {
+      {
         "type": "alpha",
         "meshName": "shadow_01",
         "fromFrame": 100,
         "toFrame": 122,
         "alpha": 1
       },
-	  
-	  
-	  
-	  
       {
         "type": "focus",
         "display": false,
@@ -75,131 +68,113 @@
       }
     ]
   },
-  
-  
-  
-  
   {
     "name": "03_step_02",
     "index": 2,
-    "image": "/image/03.png",
+    "image": "./image/03.png",
     "display": true,
     "step": 2,
     "event": [
-	{
+      {
         "type": "enabled",
         "meshName": "screws_121194_obj_l_01",
-		"fromFrame": 0,
+        "fromFrame": 0,
         "display": true
       },
-	  {
+      {
         "type": "enabled",
-        "meshName": "screws_121194_obj_l_02",		
-        "fromFrame":0.1,
+        "meshName": "screws_121194_obj_l_02",
+        "fromFrame": 0.1,
         "display": true
       },
-	  {
+      {
         "type": "enabled",
-		"meshName": "screws_121194_obj_r_01",		
+        "meshName": "screws_121194_obj_r_01",
         "fromFrame": 0.2,
         "display": true
       },
-	  {
-        "type": "enabled",        
-		"meshName": "screws_121194_obj_r_02",
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_r_02",
         "fromFrame": 0.3,
         "display": true
       },
-	  
-	  {
-        "type": "enabled",        
-		"meshName": "shadow_01",
+      {
+        "type": "enabled",
+        "meshName": "shadow_01",
         "fromFrame": 0.4,
         "display": true
       },
-	  
-	  {
+      {
         "type": "alpha",
         "meshName": "shadow_02_01_a",
         "fromFrame": 63.1,
         "toFrame": 72.1,
         "alpha": 1
       },
-	  
-	  {
+      {
         "type": "alpha",
         "meshName": "shadow_02_01_a",
         "fromFrame": 99.1,
         "toFrame": 100.1,
         "alpha": 0
       },
-	  
-	  {
+      {
         "type": "alpha",
         "meshName": "shadow_02_01_b",
         "fromFrame": 63.2,
         "toFrame": 72.2,
         "alpha": 1
       },
-	  
-	  {
+      {
         "type": "alpha",
         "meshName": "shadow_02_01_b",
         "fromFrame": 99.2,
         "toFrame": 100.2,
         "alpha": 0
       },
-	  
-	  {
+      {
         "type": "alpha",
         "meshName": "shadow_02_01_c",
         "fromFrame": 63.3,
         "toFrame": 72.3,
         "alpha": 1
       },
-	  
-	  {
+      {
         "type": "alpha",
         "meshName": "shadow_02_01_c",
         "fromFrame": 99.3,
         "toFrame": 100.3,
         "alpha": 0
       },
-	  {
+      {
         "type": "alpha",
         "meshName": "shadow_02_01_d",
         "fromFrame": 63.4,
         "toFrame": 72.4,
         "alpha": 1
       },
-	  
-	  {
+      {
         "type": "alpha",
         "meshName": "shadow_02_01_d",
         "fromFrame": 99.4,
         "toFrame": 100.4,
         "alpha": 0
       },
-	  
-	  {
+      {
         "type": "alpha",
         "meshName": "shadow_02_a",
         "fromFrame": 407,
         "toFrame": 409,
         "alpha": 1
       },
-	  
-	  {
+      {
         "type": "alpha",
         "meshName": "shadow_02_b",
         "fromFrame": 407.1,
         "toFrame": 409.1,
         "alpha": 1
       },
-	  
-	  
-	 
-	
       {
         "type": "focus",
         "display": false,
@@ -216,47 +191,41 @@
   {
     "name": "05_step_03",
     "index": 4,
-    "image": "/image/05.png",
+    "image": "./image/05.png",
     "display": true,
     "step": 3,
     "event": [
-	
-	  {
+      {
         "type": "enabled",
         "meshName": "screws_121194_obj_l_01",
-		"fromFrame": 0,
+        "fromFrame": 0,
         "display": true
       },
-	  {
+      {
         "type": "enabled",
-        "meshName": "screws_121194_obj_l_02",		
-        "fromFrame":0.1,
-        "display": true
-      },
-	  {
-        "type": "enabled",
-		"meshName": "screws_121194_obj_r_01",		
-        "fromFrame": 0.2,
-        "display": true
-      },
-	  {
-        "type": "enabled",        
-		"meshName": "shadow_02_b",
-        "fromFrame": 0.3,
-        "display": true
-      },
-	  
-	  {
-        "type": "enabled",        
-		"meshName": "shadow_02_a",
+        "meshName": "screws_121194_obj_l_02",
         "fromFrame": 0.1,
         "display": true
       },
-	  
-	  
-      
-	  
-	  {
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_r_01",
+        "fromFrame": 0.2,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "shadow_02_b",
+        "fromFrame": 0.3,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "shadow_02_a",
+        "fromFrame": 0.1,
+        "display": true
+      },
+      {
         "type": "alpha",
         "meshName": "driver",
         "fromFrame": 294,
@@ -270,15 +239,12 @@
         "toFrame": 410,
         "alpha": 0
       },
-	  
-	  {
+      {
         "type": "enabled",
         "meshName": "screws_121194_obj_l_01",
-		"fromFrame": 0,
+        "fromFrame": 0,
         "display": true
       },
-	  
-	  
       {
         "type": "focus",
         "display": false,
@@ -295,50 +261,47 @@
   {
     "name": "07_step_04",
     "index": 6,
-    "image": "/image/05.png",
+    "image": "./image/05.png",
     "display": true,
     "startFrame": 2,
     "step": 4,
     "event": [
-	{
+      {
         "type": "enabled",
         "meshName": "screws_121194_obj_l_01",
-		"fromFrame": 0,
+        "fromFrame": 0,
         "display": true
       },
-	  {
+      {
         "type": "enabled",
-        "meshName": "screws_121194_obj_l_02",		
-        "fromFrame":0.1,
-        "display": true
-      },
-	  {
-        "type": "enabled",
-		"meshName": "screws_121194_obj_r_01",		
-        "fromFrame": 0.2,
-        "display": true
-      },
-	  {
-        "type": "enabled",        
-		"meshName": "screws_121194_obj_r_02",
-        "fromFrame": 0.3,
-        "display": true
-      },
-	   {
-        "type": "enabled",        
-		"meshName": "shadow_02_b",
-        "fromFrame": 0.3,
-        "display": true
-      },
-	  
-	  {
-        "type": "enabled",        
-		"meshName": "shadow_02_a",
+        "meshName": "screws_121194_obj_l_02",
         "fromFrame": 0.1,
         "display": true
       },
-	  
-	
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_r_01",
+        "fromFrame": 0.2,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_r_02",
+        "fromFrame": 0.3,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "shadow_02_b",
+        "fromFrame": 0.3,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "shadow_02_a",
+        "fromFrame": 0.1,
+        "display": true
+      },
       {
         "type": "alpha",
         "meshName": "wrench",
@@ -369,66 +332,60 @@
   {
     "name": "09_step_05",
     "index": 8,
-    "image": "/image/05.png",
+    "image": "./image/05.png",
     "display": true,
     "step": 5,
     "event": [
-	  {
+      {
         "type": "enabled",
         "meshName": "screws_121194_obj_l_01",
-		"fromFrame": 0,
+        "fromFrame": 0,
         "display": true
       },
-	  {
+      {
         "type": "enabled",
-        "meshName": "screws_121194_obj_l_02",		
-        "fromFrame":0.1,
+        "meshName": "screws_121194_obj_l_02",
+        "fromFrame": 0.1,
         "display": true
       },
-	  {
+      {
         "type": "enabled",
-		"meshName": "screws_121194_obj_r_01",		
+        "meshName": "screws_121194_obj_r_01",
         "fromFrame": 0.2,
         "display": true
       },
-	  {
-        "type": "enabled",        
-		"meshName": "screws_121194_obj_r_02",
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_r_02",
         "fromFrame": 0.3,
         "display": true
       },
-	  
-	  {
-        "type": "enabled",        
-		"meshName": "shadow_02_b",
+      {
+        "type": "enabled",
+        "meshName": "shadow_02_b",
         "fromFrame": 0.3,
         "display": true
       },
-	  
-	  {
+      {
         "type": "alpha",
         "meshName": "shadow_02_a",
         "fromFrame": 150.2,
         "toFrame": 180.2,
         "alpha": 0
       },
-	  
-	  {
+      {
         "type": "alpha",
         "meshName": "shadow_02_b",
         "fromFrame": 150.1,
         "toFrame": 180.1,
         "alpha": 0
       },
-	  
-	  {
-        "type": "enabled",        
-		"meshName": "shadow_02_a",
+      {
+        "type": "enabled",
+        "meshName": "shadow_02_a",
         "fromFrame": 0.1,
         "display": true
       },
-	 
-	
       {
         "type": "alpha",
         "meshName": "round_board",
@@ -436,15 +393,13 @@
         "toFrame": 120,
         "alpha": 1
       },
-	  
-	  {
+      {
         "type": "alpha",
         "meshName": "shadow_04",
         "fromFrame": 70.1,
         "toFrame": 120.1,
         "alpha": 1
       },
-	  
       {
         "type": "alpha",
         "meshName": "wrench",
@@ -459,10 +414,7 @@
         "toFrame": 778,
         "alpha": 0
       },
-	  
-	  	  
-	  
-	  {
+      {
         "type": "focus",
         "display": false,
         "fromFrame": 500,
@@ -478,43 +430,40 @@
   {
     "name": "11_step_06",
     "index": 10,
-    "image": "/image/05.png",
+    "image": "./image/06.png",
     "display": true,
     "step": 6,
     "event": [
-	  {
+      {
         "type": "enabled",
         "meshName": "screws_121194_obj_l_01",
-		"fromFrame": 0,
+        "fromFrame": 0,
         "display": true
       },
-	  {
+      {
         "type": "enabled",
-        "meshName": "screws_121194_obj_l_02",		
-        "fromFrame":0.1,
+        "meshName": "screws_121194_obj_l_02",
+        "fromFrame": 0.1,
         "display": true
       },
-	  {
+      {
         "type": "enabled",
-		"meshName": "screws_121194_obj_r_01",		
+        "meshName": "screws_121194_obj_r_01",
         "fromFrame": 0.2,
         "display": true
       },
-	  {
-        "type": "enabled",        
-		"meshName": "screws_121194_obj_r_02",
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_r_02",
         "fromFrame": 0.3,
         "display": true
       },
-	  
-	  {
-        "type": "enabled",        
-		"meshName": "shadow_04",
+      {
+        "type": "enabled",
+        "meshName": "shadow_04",
         "fromFrame": 0.4,
         "display": true
       },
-	  
-	  
       {
         "type": "alpha",
         "meshName": "bolt_124154_obj_l_02",
@@ -549,7 +498,7 @@
         "fromFrame": 0,
         "display": true
       },
-	   {
+      {
         "type": "focus",
         "display": false,
         "fromFrame": 230,
@@ -560,107 +509,96 @@
         "display": false,
         "fromFrame": 470
       }
-	
     ]
   },
   {
     "name": "13_step_07",
     "index": 12,
-    "image": "/image/05.png",
+    "image": "./image/07.png",
     "display": true,
     "step": 7,
-	"event": [
-	 {
+    "event": [
+      {
         "type": "enabled",
         "meshName": "screws_121194_obj_l_01",
-		"fromFrame": 0,
+        "fromFrame": 0,
         "display": true
       },
-	  {
+      {
         "type": "enabled",
-        "meshName": "screws_121194_obj_l_02",		
-        "fromFrame":0.1,
+        "meshName": "screws_121194_obj_l_02",
+        "fromFrame": 0.1,
         "display": true
       },
-	  {
+      {
         "type": "enabled",
-		"meshName": "screws_121194_obj_r_01",		
+        "meshName": "screws_121194_obj_r_01",
         "fromFrame": 0.2,
         "display": true
       },
-	  {
-        "type": "enabled",        
-		"meshName": "screws_121194_obj_r_02",
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_r_02",
         "fromFrame": 0.3,
         "display": true
       },
-	{
+      {
         "type": "enabled",
         "meshName": "bolt_124154_obj_l_02",
         "fromFrame": 0.1,
         "display": true
       },
-	{
+      {
         "type": "enabled",
         "meshName": "frame_joint_b_l",
         "fromFrame": 0.2,
         "display": true
       },
-	 {
+      {
         "type": "enabled",
         "meshName": "bolt_124154_obj_r_02",
         "fromFrame": 0.3,
         "display": true
       },
-	  {
+      {
         "type": "enabled",
         "meshName": "frame_joint_b_r",
         "fromFrame": 0.4,
         "display": true
       },
-		
-	{
+      {
         "type": "enabled",
         "meshName": "round_board",
         "fromFrame": 0,
         "display": true
       },
-	  
-	  {
-        "type": "enabled",        
-		"meshName": "shadow_04",
+      {
+        "type": "enabled",
+        "meshName": "shadow_04",
         "fromFrame": 0.5,
         "display": true
       },
-	  
-	  {
-        "type": "enabled",        
-		"meshName": "shadow_05",
+      {
+        "type": "enabled",
+        "meshName": "shadow_05",
         "fromFrame": 0.6,
         "display": true
       },
-	  
-	  {
+      {
         "type": "alpha",
         "meshName": "round_board",
         "fromFrame": 230,
         "toFrame": 250,
         "alpha": 0
       },
-	  
-	  {
+      {
         "type": "alpha",
         "meshName": "shadow_03",
         "fromFrame": 266.1,
         "toFrame": 278.1,
         "alpha": 1
       },
-	  
-	 
-	  
-	 
-	  
-	   {
+      {
         "type": "focus",
         "display": false,
         "fromFrame": 100,
@@ -671,113 +609,102 @@
         "display": false,
         "fromFrame": 200
       }
-	 
-	  
     ]
   },
   {
     "name": "15_step_08",
     "index": 14,
-    "image": "/image/05.png",
+    "image": "./image/08.png",
     "display": true,
     "step": 8,
-	"event": [
-	  {
+    "event": [
+      {
         "type": "enabled",
         "meshName": "screws_121194_obj_l_01",
-		"fromFrame": 0,
+        "fromFrame": 0,
         "display": true
       },
-	  {
+      {
         "type": "enabled",
-        "meshName": "screws_121194_obj_l_02",		
-        "fromFrame":0.1,
+        "meshName": "screws_121194_obj_l_02",
+        "fromFrame": 0.1,
         "display": true
       },
-	  {
+      {
         "type": "enabled",
-		"meshName": "screws_121194_obj_r_01",		
+        "meshName": "screws_121194_obj_r_01",
         "fromFrame": 0.2,
         "display": true
       },
-	  {
-        "type": "enabled",        
-		"meshName": "screws_121194_obj_r_02",
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_r_02",
         "fromFrame": 0.3,
         "display": true
       },
-	 {
+      {
         "type": "alpha",
         "meshName": "wrench",
         "fromFrame": 0,
         "toFrame": 1,
         "alpha": 1
       },
-	  
-	  {
+      {
         "type": "alpha",
         "meshName": "wrench_02",
         "fromFrame": 0.1,
         "toFrame": 1.1,
         "alpha": 1
       },
-	  
-	  {
+      {
         "type": "alpha",
         "meshName": "wrench_03",
         "fromFrame": 0.2,
         "toFrame": 1.2,
         "alpha": 1
       },
-	  
-	  {
+      {
         "type": "alpha",
         "meshName": "wrench_04",
         "fromFrame": 0.3,
         "toFrame": 1.3,
         "alpha": 1
       },
-	  
-	  {
+      {
         "type": "alpha",
         "meshName": "wrench",
         "fromFrame": 270,
         "toFrame": 290,
         "alpha": 0
       },
-	  
-	  {
+      {
         "type": "alpha",
         "meshName": "wrench_02",
         "fromFrame": 270.1,
         "toFrame": 290.1,
         "alpha": 0
       },
-	  
-	  {
+      {
         "type": "alpha",
         "meshName": "wrench_03",
-        "fromFrame":270.2,
+        "fromFrame": 270.2,
         "toFrame": 290.2,
         "alpha": 0
       },
-	  
-	  {
+      {
         "type": "alpha",
         "meshName": "wrench_04",
         "fromFrame": 270.3,
         "toFrame": 290.3,
         "alpha": 0
       },
-	  
-	  {
+      {
         "type": "enabled",
         "meshName": "shadow_03",
         "fromFrame": 0.3,
         "display": true
       },
-	  
-	   {
+      {
         "type": "focus",
         "display": false,
         "fromFrame": 0,
@@ -788,79 +715,74 @@
         "display": false,
         "fromFrame": 322
       }
-	
-	]
+    ]
   },
   {
     "name": "17_step_09",
     "index": 16,
-    "image": "/image/05.png",
+    "image": "./image/09.png",
     "display": true,
     "step": 9,
-	"event": [
-	 {
+    "event": [
+      {
         "type": "enabled",
         "meshName": "screws_121194_obj_l_01",
-		"fromFrame": 0,
+        "fromFrame": 0,
         "display": true
       },
-	  {
+      {
         "type": "enabled",
-        "meshName": "screws_121194_obj_l_02",		
-        "fromFrame":0.1,
+        "meshName": "screws_121194_obj_l_02",
+        "fromFrame": 0.1,
         "display": true
       },
-	  {
+      {
         "type": "enabled",
-		"meshName": "screws_121194_obj_r_01",		
+        "meshName": "screws_121194_obj_r_01",
         "fromFrame": 0.2,
         "display": true
       },
-	  {
-        "type": "enabled",        
-		"meshName": "screws_121194_obj_r_02",
+      {
+        "type": "enabled",
+        "meshName": "screws_121194_obj_r_02",
         "fromFrame": 0.3,
         "display": true
       },
-	{
+      {
         "type": "alpha",
         "meshName": "wrench",
         "fromFrame": 0.1,
         "toFrame": 1.1,
         "alpha": 1
       },
-	  
-	  {
+      {
         "type": "alpha",
         "meshName": "wrench_02",
         "fromFrame": 0,
         "toFrame": 1,
         "alpha": 1
       },
-	  
-	  {
+      {
         "type": "alpha",
         "meshName": "wrench",
         "fromFrame": 300,
         "toFrame": 330,
         "alpha": 0
       },
-	  
-	  {
+      {
         "type": "alpha",
         "meshName": "wrench_02",
         "fromFrame": 300.1,
         "toFrame": 330.1,
         "alpha": 0
       },
-	  
-	  {
+      {
         "type": "enabled",
         "meshName": "shadow_03",
         "fromFrame": 0.3,
         "display": true
       },
-	  {
+      {
         "type": "focus",
         "display": false,
         "fromFrame": 0,
@@ -871,6 +793,6 @@
         "display": false,
         "fromFrame": 400
       }
-	  ]
+    ]
   }
 ]

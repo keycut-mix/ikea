@@ -57,9 +57,10 @@
       },
       {
         "type": "focus",
-        "display": false,
+        "display": true,
         "fromFrame": 300,
-        "camera": "step_01_camera"
+        "camera": "step_01_focus_cam",
+        "target": "step_01_focus_target"
       },
       {
         "type": "focus",
@@ -70,8 +71,8 @@
   },
   {
     "name": "03_step_02",
-    "index": 2,
-    "image": "./image/03.png",
+    "index": 1,
+    "image": "./image/02.png",
     "display": true,
     "step": 2,
     "event": [
@@ -177,9 +178,10 @@
       },
       {
         "type": "focus",
-        "display": false,
+        "display": true,
         "fromFrame": 180,
-        "camera": "step_02_camera"
+        "camera": "step_02_focus_cam",
+        "target": "step_02_focus_target"
       },
       {
         "type": "focus",
@@ -190,8 +192,8 @@
   },
   {
     "name": "05_step_03",
-    "index": 4,
-    "image": "./image/05.png",
+    "index": 2,
+    "image": "./image/03.png",
     "display": true,
     "step": 3,
     "event": [
@@ -222,7 +224,7 @@
       {
         "type": "enabled",
         "meshName": "shadow_02_a",
-        "fromFrame": 0.1,
+        "fromFrame": 0.4,
         "display": true
       },
       {
@@ -242,14 +244,15 @@
       {
         "type": "enabled",
         "meshName": "screws_121194_obj_l_01",
-        "fromFrame": 0,
+        "fromFrame": 0.5,
         "display": true
       },
       {
         "type": "focus",
-        "display": false,
+        "display": true,
         "fromFrame": 280,
-        "camera": "step_03_camera"
+        "camera": "step_03_focus_cam",
+        "target": "step_03_focus_target"
       },
       {
         "type": "focus",
@@ -260,8 +263,8 @@
   },
   {
     "name": "07_step_04",
-    "index": 6,
-    "image": "./image/05.png",
+    "index": 3,
+    "image": "./image/04.png",
     "display": true,
     "startFrame": 2,
     "step": 4,
@@ -293,13 +296,13 @@
       {
         "type": "enabled",
         "meshName": "shadow_02_b",
-        "fromFrame": 0.3,
+        "fromFrame": 0.4,
         "display": true
       },
       {
         "type": "enabled",
         "meshName": "shadow_02_a",
-        "fromFrame": 0.1,
+        "fromFrame": 0.5,
         "display": true
       },
       {
@@ -318,20 +321,21 @@
       },
       {
         "type": "focus",
-        "display": false,
+        "display": true,
         "fromFrame": 282,
-        "camera": "step_04_camera"
+        "camera": "step_04_focus_cam",
+        "target": "step_04_focus_target"
       },
       {
         "type": "focus",
         "display": false,
-        "fromFrame": 714
+        "fromFrame": 713
       }
     ]
   },
   {
     "name": "09_step_05",
-    "index": 8,
+    "index": 4,
     "image": "./image/05.png",
     "display": true,
     "step": 5,
@@ -363,7 +367,7 @@
       {
         "type": "enabled",
         "meshName": "shadow_02_b",
-        "fromFrame": 0.3,
+        "fromFrame": 0.4,
         "display": true
       },
       {
@@ -383,7 +387,7 @@
       {
         "type": "enabled",
         "meshName": "shadow_02_a",
-        "fromFrame": 0.1,
+        "fromFrame": 0.5,
         "display": true
       },
       {
@@ -416,20 +420,21 @@
       },
       {
         "type": "focus",
-        "display": false,
+        "display": true,
         "fromFrame": 500,
-        "camera": "step_05_camera"
+        "camera": "step_05_focus_cam",
+        "target": "step_05_focus_target"
       },
       {
         "type": "focus",
         "display": false,
-        "fromFrame": 778
+        "fromFrame": 777
       }
     ]
   },
   {
     "name": "11_step_06",
-    "index": 10,
+    "index": 5,
     "image": "./image/06.png",
     "display": true,
     "step": 6,
@@ -495,14 +500,15 @@
       {
         "type": "enabled",
         "meshName": "round_board",
-        "fromFrame": 0,
+        "fromFrame": 0.53,
         "display": true
       },
       {
         "type": "focus",
-        "display": false,
+        "display": true,
         "fromFrame": 230,
-        "camera": "step_06_camera"
+        "camera": "step_06_focus_cam",
+        "target": "step_06_focus_target"
       },
       {
         "type": "focus",
@@ -513,7 +519,7 @@
   },
   {
     "name": "13_step_07",
-    "index": 12,
+    "index": 6,
     "image": "./image/07.png",
     "display": true,
     "step": 7,
@@ -545,43 +551,43 @@
       {
         "type": "enabled",
         "meshName": "bolt_124154_obj_l_02",
-        "fromFrame": 0.1,
-        "display": true
-      },
-      {
-        "type": "enabled",
-        "meshName": "frame_joint_b_l",
-        "fromFrame": 0.2,
-        "display": true
-      },
-      {
-        "type": "enabled",
-        "meshName": "bolt_124154_obj_r_02",
-        "fromFrame": 0.3,
-        "display": true
-      },
-      {
-        "type": "enabled",
-        "meshName": "frame_joint_b_r",
         "fromFrame": 0.4,
         "display": true
       },
       {
         "type": "enabled",
-        "meshName": "round_board",
-        "fromFrame": 0,
-        "display": true
-      },
-      {
-        "type": "enabled",
-        "meshName": "shadow_04",
+        "meshName": "frame_joint_b_l",
         "fromFrame": 0.5,
         "display": true
       },
       {
         "type": "enabled",
-        "meshName": "shadow_05",
+        "meshName": "bolt_124154_obj_r_02",
         "fromFrame": 0.6,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "frame_joint_b_r",
+        "fromFrame": 0.7,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "round_board",
+        "fromFrame": 0.8,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "shadow_04",
+        "fromFrame": 0.9,
+        "display": true
+      },
+      {
+        "type": "enabled",
+        "meshName": "shadow_05",
+        "fromFrame": 1,
         "display": true
       },
       {
@@ -600,9 +606,10 @@
       },
       {
         "type": "focus",
-        "display": false,
+        "display": true,
         "fromFrame": 100,
-        "camera": "step_07_camera"
+        "camera": "step_07_focus_cam",
+        "target": "step_07_focus_target"
       },
       {
         "type": "focus",
@@ -613,7 +620,7 @@
   },
   {
     "name": "15_step_08",
-    "index": 14,
+    "index": 7,
     "image": "./image/08.png",
     "display": true,
     "step": 8,
@@ -645,28 +652,28 @@
       {
         "type": "alpha",
         "meshName": "wrench",
-        "fromFrame": 0,
+        "fromFrame": 0.4,
         "toFrame": 1,
         "alpha": 1
       },
       {
         "type": "alpha",
         "meshName": "wrench_02",
-        "fromFrame": 0.1,
+        "fromFrame": 0.5,
         "toFrame": 1.1,
         "alpha": 1
       },
       {
         "type": "alpha",
         "meshName": "wrench_03",
-        "fromFrame": 0.2,
+        "fromFrame": 0.6,
         "toFrame": 1.2,
         "alpha": 1
       },
       {
         "type": "alpha",
         "meshName": "wrench_04",
-        "fromFrame": 0.3,
+        "fromFrame": 0.7,
         "toFrame": 1.3,
         "alpha": 1
       },
@@ -701,14 +708,15 @@
       {
         "type": "enabled",
         "meshName": "shadow_03",
-        "fromFrame": 0.3,
+        "fromFrame": 0.8,
         "display": true
       },
       {
         "type": "focus",
-        "display": false,
-        "fromFrame": 0,
-        "camera": "step_08_camera"
+        "display": true,
+        "fromFrame": 0.9,
+        "camera": "step_08_focus_cam",
+        "target": "step_08_focus_target"
       },
       {
         "type": "focus",
@@ -719,7 +727,7 @@
   },
   {
     "name": "17_step_09",
-    "index": 16,
+    "index": 8,
     "image": "./image/09.png",
     "display": true,
     "step": 9,
@@ -751,14 +759,14 @@
       {
         "type": "alpha",
         "meshName": "wrench",
-        "fromFrame": 0.1,
+        "fromFrame": 0.4,
         "toFrame": 1.1,
         "alpha": 1
       },
       {
         "type": "alpha",
         "meshName": "wrench_02",
-        "fromFrame": 0,
+        "fromFrame": 0.5,
         "toFrame": 1,
         "alpha": 1
       },
@@ -779,19 +787,20 @@
       {
         "type": "enabled",
         "meshName": "shadow_03",
-        "fromFrame": 0.3,
+        "fromFrame": 0.6,
         "display": true
       },
       {
         "type": "focus",
-        "display": false,
-        "fromFrame": 0,
-        "camera": "step_09_camera"
+        "display": true,
+        "fromFrame": 0.7,
+        "camera": "step_09_focus_cam",
+        "target": "step_09_focus_target"
       },
       {
         "type": "focus",
         "display": false,
-        "fromFrame": 400
+        "fromFrame": 365
       }
     ]
   }
